@@ -7,7 +7,8 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/fs-102-1-vite/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/fs-102-1-vite/assets/index-5f5c68fe.css">
+    <link rel="modulepreload" crossorigin href="/fs-102-1-vite/assets/vendor-aa49a3db.js">
+    <link rel="stylesheet" href="/fs-102-1-vite/assets/index-0a162d22.css">
   </head>
   <body>
     <header class="header">
@@ -25,6 +26,44 @@
 </header>
 
     <main>
+      <section>
+    <div class="container">
+
+        <div class="swiper my-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide my-slider__item">Slide 1</div>
+                <div class="swiper-slide my-slider__item">Slide 2</div>
+                <div class="swiper-slide my-slider__item">Slide 3</div>
+
+                <div class="swiper-slide my-slider__item">Slide 11</div>
+                <div class="swiper-slide my-slider__item">Slide 22</div>
+                <div class="swiper-slide my-slider__item">Slide 33</div>
+
+            </div>
+            <!-- If we need pagination -->
+            <ul class="swiper-pagination"></ul>
+
+            <!-- If we need navigation buttons -->
+            <button type="button" class="swiper-button-prev"></button>
+            <button type="button" class="swiper-button-next"></button>
+
+        </div>
+
+
+    </div>
+</section>
+      <section class="test-imgs">
+        <div class="container test-imgs__block">
+
+          
+            <img src="/fs-102-1-vite/assets/mark-5768a8b8.jpg" class="html-img" alt="" loading="lazy">
+
+            <div class="css-img"></div>
+
+        </div>
+      </section>
       <section class="hero">
     <div class="container">
         <h1>HERO</h1>
@@ -37,14 +76,14 @@
       </section>
 
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
+      <section class="vite-promo1">
+  <div class="container1">
     <div class="wrapper">
-      <h2 class="title">
+      <h2 class="title" data-aos="fade-up">
         <span class="gradient">Vite</span>
       </h2>
       <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
+      <p class="tagline" data-aos="fade-right">
         Get ready for a development environment that can finally catch up with
         you.
       </p>
