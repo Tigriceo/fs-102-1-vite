@@ -1,0 +1,10 @@
+.my-slider__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 50px 20px;
+}
